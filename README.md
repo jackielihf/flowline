@@ -2,7 +2,6 @@
 Use **flowline** to filter large set of data, by adding user-specified filters to it.
 ***
 ##Sample
-·
     //create a flowline  
     Flowline = require('flowline');  
     flowline = new Flowline();  
@@ -32,8 +31,6 @@ Use **flowline** to filter large set of data, by adding user-specified filters t
       flowline.on("data", function(data) {  
         return console.log(data);  
       });  
-      
     //process data  
     flowline.push("hi");  
-·
 
